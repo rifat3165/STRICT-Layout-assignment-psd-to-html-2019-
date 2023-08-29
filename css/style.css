@@ -1,0 +1,241 @@
+/* Google Fonts Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header Section Start */
+header {
+    background: #f6f9f9;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+}
+
+/* Banner Section Start */
+.banner-bg{
+	background: url(../images/banner.png) no-repeat center;
+	background-size: cover;
+	width: 100%;
+    float: left;
+    height: 100vh;
+}
+.banner-bg h1 {
+    padding-top: 165px;
+    color: #fff;
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.banner-title-border {
+    background: #15a4fa;
+    width: 50%;
+    height: 2px;
+    display: block;
+    margin: 5px auto 20px;
+}
+.banner-bg p{
+	color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+.btn-primary {
+    border: 1px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 35px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.btn-primary:hover{
+	background: #15a4fa;
+	color: #fff;
+	cursor: pointer;
+}
+.banner-arrow-down {
+    margin: 120px 0px 50px;
+    text-align: center;
+    width: 100%;
+}
+.fa-angle-down{
+    color: #fff;
+    font-size: 40px;
+}
+
+/* About  Section Start */
+.about-us{
+	padding: 80px 0px;
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+}
+.about-us h2{
+	font-size: 40px;
+	text-align: center;
+	color: #2d3950;
+}
+.about-us p{
+    text-align: center;
+    color: #999999;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 35px;
+}
+
+/* Feature Section Start */
+.featues{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.feature-box{
+	width: 33.3333%;
+	float: left;
+}
+.feature-box img{
+	display: block;
+	margin: 0 auto;
+}
+.feature-box h3{
+	font-size: 22px;
+	text-align: center;
+	padding: 15px 0px 10px;
+	color: #596070;
+}
+.feature-box p {
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Portfolio Section */
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.portfolio h2{
+	font-size: 40px;
+	text-align: center;
+	color: #2d3950;
+}
+.portfolio p{
+	text-align: center;
+    color: #999999;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.portfolio-gallery{
+	padding-top: 80px;
+}
+.portfolio-item {
+    position: relative;
+    width: 31%;
+    float: left;
+    margin: 7px 10px;
+}
+.portfolio-item img{
+	width: 100%;
+}
+.portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #2bacfa;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.portfolio-hover ul{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 100%;
+}
+.portfolio-hover ul li {
+    list-style: none;
+    display: inline;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.portfolio-item:hover .portfolio-hover{
+	opacity: 0.6;
+}
+
+/* Footer Section Start */
+footer{
+	width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 20px 0px;
+}
+.footer-left{
+	width: 50%;
+	float: left;
+}
+.footer-right{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.footer-right ul li{
+	list-style: none;
+	display: inline;
+}
+.footer-right ul li i{
+	width: 32px;
+    height: 32px;
+    background: #15a4fa;
+    text-align: center;
+    line-height: 33px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.fa-facebook:hover{
+	background: maroon;
+	color: #fff;
+	cursor: pointer;
+}
+.fa-twitter:hover{
+	background: skyblue;
+	color: #fff;
+	cursor: pointer;
+}
+.fa-google-plus:hover{
+	background: red;
+	color: #fff;
+	cursor: pointer;
+}
+.fa-linkedin:hover{
+	background: orange;
+	color: #fff;
+	cursor: pointer;
+}
